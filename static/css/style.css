@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.login-card {
+    width: 380px;
+    padding: 30px;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.divider {
+    text-align: center;
+    margin: 15px 0;
+    font-weight: bold;
+    color: #888;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}

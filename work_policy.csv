@@ -1,0 +1,5 @@
+start_date,office_start,required_hours,is_off,friday_rule
+2026-02-01,08:50,8,False,Normal
+2026-02-19,09:20,6,False,Ramzan
+2026-03-12,09:20,3.5,False,RamzanFriday
+2026-03-25,08:20,8,False,Normal
